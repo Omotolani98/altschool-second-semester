@@ -149,5 +149,5 @@ ssh -i <path_to_key_pair> ubuntu@<elastic-ip>
 
 ---
 ## 9. Accessing the URL
-![Website Link](https://social.omotolani.tech)
+[Website Link](https://social.omotolani.tech)
 ![Verification Placeholder](assets/verification.png)
