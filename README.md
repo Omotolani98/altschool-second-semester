@@ -97,7 +97,7 @@ ssh -i <path_to_key_pair> ubuntu@<elastic-ip>
    sudo systemctl restart nginx
    ```
 
-![Nginx Virtual Host Configuration Placeholder](assets/nginx/)
+<!-- ![Nginx Virtual Host Configuration Placeholder](assets/nginx/) -->
 
 ---
 
