@@ -6,6 +6,7 @@
 - A key-value pair for SSH access
 - A registered domain name (e.g., `omotolani.tech`)
 
+- Public IP: 34.194.16.64
 ---
 
 ## 1. Launch an EC2 Instance
@@ -40,9 +41,9 @@
 ## 3. SSH into the Instance
 Use the Elastic IP to access your instance:
 ```bash
-ssh -i <path_to_key_pair> ubuntu@54.225.168.255
+ssh -i <path_to_key_pair> ubuntu@34.194.16.64
 ```
-
+Please note a pem key is needed to access this VM
 ---
 
 ## 4. Install Nginx
