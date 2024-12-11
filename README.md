@@ -39,11 +39,12 @@
 ---
 
 ## 3. SSH into the Instance
-Use the Elastic IP to access your instance:
+1. Use the Elastic IP to access your instance:
 ```bash
-ssh -i <path_to_key_pair> ubuntu@34.194.16.64
+ssh -i <name of pem file>.pem ubuntu@34.194.16.64
 ```
-Please note a pem key is needed to access this VM
+> Please note a pem key is needed to access this VM
+> Updated /etc/ssh/sshd_config file to also allow public key authentication
 ---
 
 ## 4. Install Nginx
