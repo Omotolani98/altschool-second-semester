@@ -40,7 +40,7 @@
 ## 3. SSH into the Instance
 Use the Elastic IP to access your instance:
 ```bash
-ssh -i <path_to_key_pair> ubuntu@<elastic-ip>
+ssh -i <path_to_key_pair> ubuntu@54.225.168.255
 ```
 
 ---
