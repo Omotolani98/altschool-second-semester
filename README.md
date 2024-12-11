@@ -22,8 +22,34 @@
 ![EC2 Instance Configuration Placeholder](assets/ec2/ec2-page.png)
 
 ---
+### 2: Set Up Security Group for the Instance
+1. While configuring the instance, either create a new security group or use an existing one.
+2. Add the following **inbound rules** to allow traffic:
+   - **SSH (Port 22):**  
+     - Type: `SSH`  
+     - Protocol: `TCP`  
+     - Port Range: `22`  
+     - Source: `0.0.0.0/0`
+   - **HTTP (Port 80):**  
+     - Type: `HTTP`  
+     - Protocol: `TCP`  
+     - Port Range: `80`  
+     - Source: `0.0.0.0/0`
+   - **HTTPS (Port 443):**  
+     - Type: `HTTPS`  
+     - Protocol: `TCP`  
+     - Port Range: `443`  
+     - Source: `0.0.0.0/0`
+   - **Optional - ICMP (Ping):**  
+     - Type: `All ICMP - IPv4`  
+     - Protocol: `ICMP`  
+     - Port Range: `All`  
+     - Source: `0.0.0.0/0`
 
-## 2. Allocate and Associate an Elastic IP
+![Security Group ](assets/security-group.png)
+---
+
+## 3. Allocate and Associate an Elastic IP
 1. Navigate to the **Elastic IPs** section in the EC2 dashboard.
 2. Click **Allocate Elastic IP Address** and fill out the necessary form.
 3. Once allocated, click on **Actions** → **Associate IP Address**.
