@@ -148,5 +148,6 @@ ssh -i <path_to_key_pair> ubuntu@<elastic-ip>
 ![SSL Setup Placeholder](assets/nginx/certbot.png)
 
 ---
-## 9. Accessing `https://social.omotolani.tech`
+## 9. Accessing the URL
+![Website Link](https://social.omotolani.tech)
 ![Verification Placeholder](assets/verification.png)
